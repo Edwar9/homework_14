@@ -1,5 +1,6 @@
 import Header from "./component/Header/header";
 import Main from "./component/Main/main";
+import "./index.css"
 
 function App() {
   return (

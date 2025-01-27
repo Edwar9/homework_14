@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+
+.header-nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 27px;
+}

@@ -1,0 +1,10 @@
+.choice {
+    display: flex;
+    color: #D6D0FB;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}

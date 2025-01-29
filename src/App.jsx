@@ -1,12 +1,12 @@
 import Header from "./component/Header/header";
-import Main from "./component/Main/main";
+import Title from "./component/Title/title";
 import "./index.css"
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Title />
     </div>
   );
 }

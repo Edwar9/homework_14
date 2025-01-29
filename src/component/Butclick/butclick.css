@@ -1,0 +1,12 @@
+.butclick {
+    width: 130px;
+    height: 66px;
+    background-color: #4A2CED;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.butclick:hover {
+    background-color: #AEA1F7;
+}

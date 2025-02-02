@@ -19,13 +19,13 @@ const Title = () => {
         <Offer />
       </div>
       <div className="container">
-        <Choice text = {"EVENT PHOTOGRAPHY"} />
-        <Choice text = {"COMERCIAL PHOTOGRAPHY"} />
-        <Choice text = {"PRODUCT PHOTOGRAPHY"} />
-        <Choice text = {"WEDDING PHOTOGRAPHY"} />
-        <Choice text = {"LANDSCAPE PHOTOGRAPHY"} />
-        <Choice text = {"BRANDING PHOTOGRAPHY"} />
-        <Choice text = {"PORTRAIT PHOTOGRAPHY"} />
+        <Choice text = {"EVENT"} />
+        <Choice text = {"COMERCIAL"} />
+        <Choice text = {"PRODUCT"} />
+        <Choice text = {"WEDDING"} />
+        <Choice text = {"LANDSCAPE"} />
+        <Choice text = {"BRANDING"} />
+        <Choice text = {"PORTRAIT"} />
       </div>
       <div className="title-img">
         <img src={title} alt="" />

@@ -1,10 +1,10 @@
 .choice {
     display: flex;
     color: #D6D0FB;
-    gap: 10px;
 }
 
 .text {
     display: flex;
+    gap: 5px;
     align-items: center;
 }

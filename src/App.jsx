@@ -1,3 +1,4 @@
+import About from "./component/About/about";
 import Header from "./component/Header/header";
 import Title from "./component/Title/title";
 import "./index.css"
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Title />
+      <About />
     </div>
   );
 }

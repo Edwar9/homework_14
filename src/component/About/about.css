@@ -1,0 +1,85 @@
+.about {
+    margin-top: 120px;
+    padding: 0 30px;
+    color:white
+}
+
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word {
+    font-size: 20px;
+}
+
+.about-name {
+    font-size: 58px;
+}
+
+.about-container {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.container-info {
+    border: 1px solid #424242;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #afb0b6;
+}
+
+.intro {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts {
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.personal {
+    display: flex;
+    gap: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #afb0b6;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.messager {
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #424242;
+}
+
+.line {
+    width: 100%;
+    border-top: 1px solid #424242;
+}
+
+.email, .number {
+    color: #e4e4e6;
+
+}

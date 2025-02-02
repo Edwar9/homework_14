@@ -11,7 +11,7 @@ const Title = () => {
       <div className="title">
         <div className="title-name">
           <p>STUNNING PHOTOGRAPHY BY</p>
-          <h1 className="name">DANIEN BRAUN</h1>
+          <h1 className="name">DAMIEN BRAUN</h1>
         </div>
         <div className="abstract">
           <img src={abstract} alt="" />

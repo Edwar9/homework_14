@@ -3,6 +3,7 @@
     padding: 15px;
     cursor: pointer;
     border-radius: 5px;
+    max-height: 59px;
 }
 
 .button:hover {

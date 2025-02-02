@@ -1,0 +1,10 @@
+.info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.text-info {
+    font-size: 30px;
+    color: #CACACE;
+}

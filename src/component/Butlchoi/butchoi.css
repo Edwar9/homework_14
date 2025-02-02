@@ -1,0 +1,20 @@
+/* .butchoi {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #424242;
+    border-radius: 50px;
+} */
+
+.vector {
+    width: 62px;
+    height: 62px;
+    border: 1px solid #424242;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+}
+
+.vector:hover {
+    background-color: #424242;
+}

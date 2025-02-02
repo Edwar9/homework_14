@@ -1,0 +1,45 @@
+.services {
+    padding: 30px;
+}
+
+.services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-main {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.events {
+    font-size: 44px;
+}
+
+.container-header {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.container-top {
+    color: #797c86;
+}
+
+.text-s {
+    font-size: 18px;
+}
+
+.s-h-l {
+    color: #cacace;
+    font-size: 18px;
+    padding: 20px 0;
+}

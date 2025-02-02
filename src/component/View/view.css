@@ -1,0 +1,7 @@
+.view {
+    display: flex;
+    padding: 8px;
+    gap: 8px; 
+    border: 1px solid #424242;
+    border-radius: 50px;
+}

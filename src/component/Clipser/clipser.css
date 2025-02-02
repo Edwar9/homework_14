@@ -1,0 +1,14 @@
+.clipser {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 8px;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.text-s {
+    color: #afb0b6;
+    font-size: 18px;
+}

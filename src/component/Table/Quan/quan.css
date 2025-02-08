@@ -1,0 +1,23 @@
+.quan-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quan-answer {
+  color: #797c86;
+  font-size: 18px;
+}
+
+.quan-question {
+    color: #afb0b6;
+    font-size: 20px;
+}
+
+.toggle-btn {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #797c86;
+    border-radius: 50%;
+    background-color: #070708;
+    color: white;
+}

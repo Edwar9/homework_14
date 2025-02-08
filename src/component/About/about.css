@@ -67,14 +67,6 @@ a {
     justify-content: space-between;
 }
 
-.messager {
-    padding: 8px;
-    display: flex;
-    gap: 10px;
-    border-radius: 50px;
-    border: 1px solid #424242;
-}
-
 .line {
     width: 100%;
     border-top: 1px solid #424242;

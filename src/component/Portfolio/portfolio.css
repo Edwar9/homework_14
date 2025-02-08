@@ -1,0 +1,23 @@
+.portfolio {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.portfolio-main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}

@@ -1,5 +1,6 @@
 import About from "./component/About/about";
 import Header from "./component/Header/header";
+import Portfolio from "./component/Portfolio/portfolio";
 import Services from "./component/Services/services";
 import Title from "./component/Title/title";
 import "./index.css"
@@ -11,6 +12,7 @@ function App() {
       <Title />
       <About />
       <Services />
+      <Portfolio />
     </div>
   );
 }

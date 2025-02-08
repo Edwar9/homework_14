@@ -3,10 +3,7 @@ import Button from "../Button/button";
 import "./about.css";
 import about from "../../images/about.png";
 import Info from "../Info/info";
-import Butmess from "../Butmess/butmess";
-import fb from "../../images/fb.png"
-import twit from "../../images/twit.png"
-import insta from "../../images/insta.png"
+import Messager from "../Messager/messager";
 
 const About = () => {
   return (
@@ -49,11 +46,7 @@ const About = () => {
                 </div>
             </div>
             <div className="social">
-                <div className="messager">
-                    <Butmess text = {fb} />
-                    <Butmess text = {twit} />
-                    <Butmess text = {insta} />
-                </div>
+                <Messager />
                 <Button text = {"Let's Work"} />
                 <Button text = {"Donload CV"} />
             </div>

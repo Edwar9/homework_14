@@ -1,0 +1,17 @@
+.but {margin-top: 7px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #070708;
+  border: none;
+  align-items: center;
+}
+
+.but:hover {
+  border-bottom: 1px solid #797c86;
+}
+
+.but-text {
+  color: #f2f2f3;
+  font-size: 18px;
+}

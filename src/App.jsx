@@ -1,4 +1,5 @@
 import About from "./component/About/about";
+import Faq from "./component/Faq/faq";
 import Header from "./component/Header/header";
 import Portfolio from "./component/Portfolio/portfolio";
 import Services from "./component/Services/services";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Faq />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import clip from "../../images/clip.png";
+import clip from "../../../images/clip.png";
 import "./choice.css";
 
 const Choice = ({ text }) => {

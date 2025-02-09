@@ -1,0 +1,35 @@
+.testim {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.testim-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testim-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #0c0c10;
+}
+
+.total {
+    color: #62646c;
+    font-size: 18px;
+}
+
+.num {
+    color: #cacace;
+    font-size: 28px;
+}
+
+.cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

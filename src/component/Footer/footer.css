@@ -1,11 +1,37 @@
-.footer {
-    margin-top: 80px;
-    padding: 30px;
-}
-
 .footer-bg {
+    margin: 80px 0;
      background: no-repeat;
      display: flex;
      justify-content: center;
-     margin-bottom: 40px;
+}
+
+.footer-main {
+    display: flex;
+    border: 1px solid #1c1c21;
+}
+
+.title-text {
+    margin-bottom: 60px;
+    color: #797c86;
+    font-size: 20px;
+}
+
+.footer-title {
+    padding: 60px 50px;
+    border-left: 1px solid #1c1c21;
+    border-right: 1px solid #1c1c21;
+}
+
+.footer-container {
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-left: 1px solid #1c1c21;
+    border-right: 1px solid #1c1c21;
+}
+
+.text {
+    color: #797c86;
+    font-size: 18px;
 }

@@ -1,0 +1,11 @@
+.but-link {
+    background-color: #070708;
+    cursor: pointer;
+    border: none;
+    color: #f2f2f3;
+    font-size: 18px;
+}
+
+.but-link:hover {
+    border-bottom: 1px solid #797c86;
+}

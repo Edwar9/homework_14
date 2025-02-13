@@ -7,11 +7,11 @@ const Offer = () => {
     <div className="offer">
       <div className="icon">
         <div className="text">
-          <p>LET'S</p>
+          <p className="offer-text">LET'S</p>
         </div>
         <Butclick />
       </div>
-      <p>WORK TOGETHER</p>
+      <p className="offer-text">WORK TOGETHER</p>
     </div>
   );
 };

@@ -3,9 +3,11 @@ import "./footer.css";
 import Photography from "../Photography/photography";
 import Damien from "../../images/Damien.png";
 import Offer from "../Offer/offer";
-import footleft from "../../images/footleft.png" 
-import Butfoot from "./Butfoot/butfoot";  
-import footright from "../../images/footright.png"
+import footleft from "../../images/footleft.png";
+import Butfoot from "./Butfoot/butfoot";
+import footright from "../../images/footright.png";
+import Messager from "../Messager/messager" 
+import Line from "../../images/Line.png"
 
 const Footer = () => {
   return (
@@ -27,52 +29,61 @@ const Footer = () => {
             <p className="text">HOME</p>
             <br />
             <br />
-            <Butfoot text = {"ABOUT ME"} />
+            <Butfoot text={"ABOUT ME"} />
             <br />
-            <Butfoot text = {"MY WORKS"} />
+            <Butfoot text={"MY WORKS"} />
             <br />
-            <Butfoot text = {"TESTIMONIALS"} />
+            <Butfoot text={"TESTIMONIALS"} />
           </div>
           <div className="cont-clients">
             <p className="text">CLIENTS</p>
             <br />
             <br />
-            <Butfoot text = {"KLOVESTO"} />
+            <Butfoot text={"KLOVESTO"} />
             <br />
-            <Butfoot text = {"NUKEWAY"} />
+            <Butfoot text={"NUKEWAY"} />
             <br />
-            <Butfoot text = {"CLOVEN'S"} />
+            <Butfoot text={"CLOVEN'S"} />
             <br />
-            <Butfoot text = {"MENVOL"} />
+            <Butfoot text={"MENVOL"} />
           </div>
           <div className="cont-portfolio">
             <p className="text">PORTFOLIO</p>
             <br />
             <br />
-            <Butfoot text = {"EVENTS"} />
+            <Butfoot text={"EVENTS"} />
             <br />
-            <Butfoot text = {"PORTRAIT"} />
+            <Butfoot text={"PORTRAIT"} />
             <br />
-            <Butfoot text = {"BRANDING"} />
+            <Butfoot text={"BRANDING"} />
             <br />
-            <Butfoot text = {"COMMERCIALE"} />
+            <Butfoot text={"COMMERCIALE"} />
             <br />
-            <Butfoot text = {"WEDDING"} />
+            <Butfoot text={"WEDDING"} />
           </div>
           <div className="cont-services">
             <p className="text">SERVICES</p>
             <br />
             <br />
-            <Butfoot text = {"PORTRAITS"} />
+            <Butfoot text={"PORTRAITS"} />
             <br />
-            <Butfoot text = {"EVENTS"} />
+            <Butfoot text={"EVENTS"} />
             <br />
-            <Butfoot text = {"COMMERCIAL"} />
+            <Butfoot text={"COMMERCIAL"} />
           </div>
         </div>
         <div className="footer-bg">
           <img src={footright} alt="" />
         </div>
+      </div>
+      <div className="footer-info">
+        <div className="info-btn">
+          <button className="btn-link">Terms & Conditions</button>
+          <img src={Line} alt="" />
+          <button className="btn-link">Privacy Policy</button>
+        </div>
+        <Messager />
+        <p className="info-text">© 2024 Damien Braun Photography. All rights reserved.</p> 
       </div>
     </>
   );

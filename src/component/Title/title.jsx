@@ -3,7 +3,7 @@ import "./title.css";
 import Offer from "../Offer/offer";
 import title from "../../images/title.png"
 import abstract from "../../images/abstract.png"
-import Choice from "../Choice/choice";
+import Photography from "../Photography/photography";
 
 const Title = () => {
   return (
@@ -18,15 +18,7 @@ const Title = () => {
         </div>
         <Offer />
       </div>
-      <div className="container">
-        <Choice text = {"EVENT"} />
-        <Choice text = {"COMERCIAL"} />
-        <Choice text = {"PRODUCT"} />
-        <Choice text = {"WEDDING"} />
-        <Choice text = {"LANDSCAPE"} />
-        <Choice text = {"BRANDING"} />
-        <Choice text = {"PORTRAIT"} />
-      </div>
+      <Photography />
       <div className="title-img">
         <img src={title} alt="" />
       </div>

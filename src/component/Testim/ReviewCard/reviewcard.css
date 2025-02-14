@@ -1,0 +1,36 @@
+.reviewcard {
+    padding: 20px;
+    background-color: #0e0e10;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #0e0e10;
+    border-radius: 5px;
+}
+
+.reviewcard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-card {
+    color: #e4e4e6;
+    font-size: 20px;
+}
+
+.adress {
+    color: #62646c;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.review {
+    color: #e4e4e6;
+    font-size: 20px;
+}

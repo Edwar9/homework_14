@@ -25,14 +25,3 @@ img {
 .name {
     font-size: 60px;
 }
-
-.container {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding: 15px;
-    background-color: #0E0E10;
-    font-size: 18px;
-    overflow: scroll;
-    overflow: hidden;
-}

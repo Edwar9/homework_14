@@ -35,3 +35,32 @@
     color: #797c86;
     font-size: 18px;
 }
+
+.footer-info {
+    display: flex;
+    padding: 40px 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-link {
+    background-color: #070708;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f2f2f3;
+}
+
+.btn-link:hover {
+    border-bottom: 1px solid #797c86;
+}
+
+.info-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.info-text {
+    color: #797c86;
+    font-size: 18px;
+}

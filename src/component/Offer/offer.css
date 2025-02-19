@@ -1,10 +1,13 @@
-.offer {
-    font-size: 50px;
-}
+
 
 .icon {
     display: flex;
      gap: 10px;
+}
+
+.offer-text {
+    color: white;
+    font-size: 58px;
 }
 
 

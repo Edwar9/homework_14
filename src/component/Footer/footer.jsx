@@ -12,8 +12,8 @@ import Line from "../../images/Line.png"
 const Footer = () => {
   return (
     <>
-      <div className="footer-bg">
-        <img src={Damien} alt="" />
+      <div className="footer-bg-top">
+        <img className="damien" src={Damien} alt="" />
       </div>
       <Photography />
       <div className="footer-main">

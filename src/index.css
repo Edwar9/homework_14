@@ -10,6 +10,36 @@
     font-family: "Manrope";
 }
 
-.App {
+/*Тёмная тема по умолчанию*/
+.App.dark {
     background-color: #070708;
+}
+
+/*Светлая тема*/
+.App.light {
+    background-color: wheat;
+}
+
+/* Кнопка переключения темы */
+.theme-toggle {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Кнопка в светлой теме */
+.App.light .theme-toggle {
+    background: #070708;
+    color: wheat;
+}
+
+/* Кнопка в тёмной теме */
+.App.dark .theme-toggle {
+    background: wheat;
+    color: #070708;
 }

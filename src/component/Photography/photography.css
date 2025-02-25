@@ -1,11 +1,24 @@
 .photography {
-    max-width: 1920px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     padding: 15px;
-    background-color: #0E0E10;
+    /* background-color: #0E0E10; */
     font-size: 18px;
-    overflow: scroll;
-    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    cursor: grab;
+    scroll-behavior: smooth;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+}
+
+/* Скрытие полосы прокрутки */
+.photography::-webkit-scrollbar {
+    display: none;
+}
+
+/* Эффект активного перетаскивания */
+.photography.active {
+    cursor: grabbing;
 }

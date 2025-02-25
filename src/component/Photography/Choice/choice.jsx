@@ -4,13 +4,13 @@ import "./choice.css";
 
 const Choice = ({ text }) => {
   return (
-    <div className="choice">
-      <img src={clip} alt="" />
+    <button className="choice">
+      <img className="clip" src={clip} alt="" />
       <div className="text">
         {text}
         <p>PHOTOGRAPHY</p>
       </div>
-    </div>
+    </button>
   );
 };
 

@@ -16,7 +16,7 @@ const About = () => {
         <Button text={"Know More ->"} />
       </div>
       <div className="about-container">
-        <img src={about} alt="" />
+        <img className="about-img" src={about} alt="" />
         <div className="container-info">
           <div className="intro">
             <Info text={"Introduction"} />

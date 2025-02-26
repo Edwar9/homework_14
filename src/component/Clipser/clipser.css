@@ -1,14 +1,33 @@
+@media (min-width: 1600px) {
+  .clipser {
+    width: 773px;
+    height: 76px;
+  }
+
+  .text-s {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .clipser {
+        min-width: 620px;
+        height: 62px;
+    }
+
+    .text-s {
+        font-size: 16px;
+    }
+}
+
 .clipser {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    margin-top: 8px;
-    border: 1px solid #424242;
-    border-radius: 8px;
-    align-items: center;
+  display: flex;
+  margin-top: 8px;
+  border: 1px solid #424242;
+  border-radius: 8px;
+  align-items: center;
 }
 
 .text-s {
-    color: #afb0b6;
-    font-size: 18px;
+  color: #afb0b6;
 }

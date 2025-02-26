@@ -8,12 +8,12 @@ const Header = () => {
     <div className="header">
       <div className="header-logo">DAMIEN</div>
       <nav className="header-nav">
-      <Button text = {"Home"} />
-      <Button text = {"About me"} />
-      <Button text = {"Portfolio"} />
-      <Button text = {"Services"} />
+        <Button text={"Home"} />
+        <Button text={"About me"} />
+        <Button text={"Portfolio"} />
+        <Button text={"Services"} />
       </nav>
-      <Button text = {"Contact Me"} />
+      <Button text={"Contact Me"} />
     </div>
   );
 };

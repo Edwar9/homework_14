@@ -1,12 +1,24 @@
-.butclick {
+@media (min-width: 1600px) {
+  .butclick {
     width: 130px;
     height: 66px;
-    background-color: #4A2CED;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .butclick {
+        width: 104px;
+        height: 56px;
+      } 
+}
+
+.butclick {
+  background-color: #4a2ced;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .butclick:hover {
-    background-color: #AEA1F7;
+  background-color: #aea1f7;
 }

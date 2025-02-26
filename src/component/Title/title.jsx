@@ -20,7 +20,7 @@ const Title = () => {
       </div>
       <Photography />
       <div className="title-img">
-        <img src={title} alt="" />
+        <img className="img" src={title} alt="" />
       </div>
     </>
   );

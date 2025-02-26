@@ -1,8 +1,19 @@
+@media (min-width: 1600px) {
+    .header {
+        padding: 30px 162px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .header {
+        padding: 15px 62px;
+    }
+}
+
 .header {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    /* padding: 30px; */
     color: white;
 }
 

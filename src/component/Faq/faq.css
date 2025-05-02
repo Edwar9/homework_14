@@ -1,4 +1,15 @@
+@media (min-width: 1600px) {
+    .faq {
+        padding: 30px 162px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .faq {
+        padding: 15px 62px;
+    }
+}
+
 .faq {
     margin-top: 80px;
-    padding: 30px;
 }

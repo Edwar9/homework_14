@@ -1,6 +1,17 @@
+@media (min-width: 1600px) {
+    .testim {
+        padding: 30px 162px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .testim {
+        padding: 15px 62px;
+    }
+}
+
 .testim {
     margin-top: 80px;
-    padding: 30px;
 }
 
 .testim-nav {

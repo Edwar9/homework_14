@@ -1,24 +1,20 @@
 import React from "react";
 import "./footer.css";
-import Photography from "../Photography/photography";
-import Damien from "../../images/Damien.png";
 import Offer from "../Offer/offer";
 import footleft from "../../images/footleft.png";
 import Butfoot from "./Butfoot/butfoot";
 import footright from "../../images/footright.png";
-import Messager from "../Messager/messager" 
-import Line from "../../images/Line.png"
+import Messager from "../Messager/messager";
+import Line from "../../images/Line.png";
+import Photography from "../Photography/photography";
 
 const Footer = () => {
   return (
-    <>
-      <div className="footer-bg-top">
-        <img className="damien" src={Damien} alt="" />
-      </div>
+    <div className="footer">
       <Photography />
       <div className="footer-main">
         <div className="footer-bg">
-          <img src={footleft} alt="" />
+          <img className="abstract-left" src={footleft} alt="" />
         </div>
         <div className="footer-title">
           <p className="title-text">A more meaningful home for photography</p>
@@ -73,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bg">
-          <img src={footright} alt="" />
+          <img className="abstract-right" src={footright} alt="" />
         </div>
       </div>
       <div className="footer-info">
@@ -83,9 +79,11 @@ const Footer = () => {
           <button className="btn-link">Privacy Policy</button>
         </div>
         <Messager />
-        <p className="info-text">© 2024 Damien Braun Photography. All rights reserved.</p> 
+        <p className="info-text">
+          © 2024 Damien Braun Photography. All rights reserved.
+        </p>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,16 @@
+@media (min-width: 1600px) {
+    .damien {
+        padding: 60px 162px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .damien {
+        padding: 30px 82px;
+    }
+}
+
+.damien {
+    display: flex;
+    justify-content: end;
+}

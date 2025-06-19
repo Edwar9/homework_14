@@ -5,6 +5,7 @@ import Portfolio from "./component/Portfolio/portfolio";
 import Services from "./component/Services/services";
 import Testim from "./component/Testim/testim";
 import Title from "./component/Title/title";
+import Damien from "./component/Damien/damien";
 import Footer from "./component/Footer/footer"
 import "./index.css"
 import { useState } from "react";
@@ -29,6 +30,7 @@ function App() {
       <Portfolio />
       <Faq />
       <Testim />
+      <Damien />
       <Footer />
     </div>
   );

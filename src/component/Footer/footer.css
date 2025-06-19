@@ -1,25 +1,30 @@
-.footer-bg-top {
-  margin: 80px 0;
-  display: flex;
-  justify-content: flex-end;
+@media (min-width: 1600px) {
+  .footer {
+      padding: 30px 0;
+      width: 100%;
+  }
 }
 
-.damien {
-  margin-right: 80px; /* Отступ справа */
-  max-width: 100%; /* Чтобы картинка не выходила за границы */
-  height: auto;
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .footer {
+      padding: 15px 0px;
+      margin: 0 -80px;
+  }
 }
 
 .footer-bg {
-  margin: 80px 0;
   background: no-repeat;
   display: flex;
   justify-content: center;
+  border-left: 1px solid #1c1c21;
+  border-right: 1px solid #1c1c21;
 }
 
 .footer-main {
+  margin: 0;
   display: flex;
-  border: 1px solid #1c1c21;
+  justify-content: space-between;
+  border-bottom: 1px solid #1c1c21;
 }
 
 .title-text {
@@ -30,7 +35,6 @@
 
 .footer-title {
   padding: 60px 50px;
-  border-left: 1px solid #1c1c21;
   border-right: 1px solid #1c1c21;
 }
 
@@ -39,8 +43,6 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  border-left: 1px solid #1c1c21;
-  border-right: 1px solid #1c1c21;
 }
 
 .text {
@@ -75,4 +77,14 @@
 .info-text {
   color: #797c86;
   font-size: 18px;
+}
+
+.abstract-left {
+  max-width: 100%;
+  padding: 80px 0;
+}
+
+.abstract-right {
+  max-width: 100%;
+  padding: 80px 0;
 }
